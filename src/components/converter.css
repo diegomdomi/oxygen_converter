@@ -1,0 +1,129 @@
+.container{
+    /* position: absolute; */
+    Width: 714px;
+    height: 193px;
+    margin-top: 99px;
+    margin-left: 529px;
+    border-radius: 21px;
+    background-color: #2E0039;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+}
+
+
+.container p{
+   /* position: absolute; */
+    width: 104px;
+    height: 35px;
+    left: 567px;
+    top: 123px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.select{
+    margin: 0px 90px 0px 0px;
+    border: none;
+    background-color:  #2E0039;
+    border-bottom: 2px solid #FFFFFF;
+    text-align: start;
+    width: 218px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+.inputField{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #FFFFFF;
+    text-align: end;
+    width: 221px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.result{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 63px;
+    top: 220px;
+    height: 30px;
+    left: 1050px;
+    right: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.measuretoconvert{
+    color: #FFFFFF;
+    display:flex;
+    margin-left:600px;
+    margin-top:-20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.measureresult{
+    display:flex;
+    margin-left:600px;
+    margin-top:25px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.like{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.invertresults{
+    position: absolute;
+    margin-left:-80px;
+    background:none;
+    color: #FFFFFF;
+    border: none;
+    margin-top:10px
+}
+
+/* @media (min-width:320px){
+    .container{
+        position: absolute;
+    }
+} */
