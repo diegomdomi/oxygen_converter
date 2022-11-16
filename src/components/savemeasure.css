@@ -13,7 +13,7 @@
 }
 
 .showlist{
-    width: 144px;
+    width: auto;
     height: 23px;
     font-family: 'Poppins';
     font-style: normal;
@@ -60,6 +60,36 @@ h6{
     color: #676767;
     position: absolute;
     margin-top: 90px;
-  text-align: center;
+    text-align: center;
 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px){
+    h6{
+        position: absolute;
+        left: -21px;
+        top: 323px;
+        right: 181px;
+        margin-right: 181px;
+        margin-left: 0px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 363px;
+        margin-left: 21px;
+        position: absolute;
+        top: 100px;
+        left: 21px;
+    }
+    .savedmeasure{
+        top: auto;
+        left: auto;
+        right: 390px;
+    }
+
+    .showlist{
+        width:auto;
+       }
+ 
 }

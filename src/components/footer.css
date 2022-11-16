@@ -28,3 +28,10 @@
     list-style-type: none;
     
 }
+
+@media only screen and (min-width: 320px) and (max-width: 1200px){
+    .footer_list{
+        margin-right: 262px;
+    margin-left: 75px;
+    }
+}
